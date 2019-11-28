@@ -37,7 +37,7 @@ namespace maximum_path
                                      924 622 911 233 325 139 721 218 253 223 107 233 230 124 233";
 
 
-            return Question4Data;
+            return Question3Data;
         }
         public static string[] TransformInputToArray(this string input)
         {
