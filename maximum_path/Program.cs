@@ -13,14 +13,14 @@ namespace maximum_path
         {
  
             var result = GFG.GetInput()
-                    .TransformInputToArray()
-                    .TransformTo2Darray()
-                    .ResetAllPrimeNumbers()
-                    .WalkThroughTheNode();
+                        .TransformInputToArray()
+                        .TransformTo2Darray()
+                        .ResetAllPrimeNumbers()
+                        .WalkThroughTheNode();
 
-            var c = result.ToString();
+            var value = result.ToString();
 
-            Console.WriteLine(c);
+            Console.WriteLine(value);
             Console.ReadLine();
 
         }
